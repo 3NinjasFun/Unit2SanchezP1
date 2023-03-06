@@ -20,7 +20,7 @@ public class DestroyOnBounds : MonoBehaviour
         {
             Destroy(gameObject);
         }
-         if (transform.position.z < lowerBound)
+        if (transform.position.z < lowerBound)
         {
             Destroy(gameObject);
         }
