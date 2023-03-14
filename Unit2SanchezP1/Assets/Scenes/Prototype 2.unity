@@ -484,10 +484,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c52d4eda919b5ca43aab30d104c4497b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  verticalInput: 0
   horizontalInput: 1
   speed: 12
   xRange: 11
+  zRange: 9
   projectilePrefab: {fileID: 7272782231866757019, guid: a01dafe1c6769614f8a720cf9e5fc793, type: 3}
+--- !u!65 &908494953
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908494949}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3.4698591, z: 0.21345097}
+  m_Center: {x: 0, y: 1.23493, z: -0.39327452}
 --- !u!850595691 &971278011
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -609,7 +624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3bd8a450fcb589542a7843ea7bda2ee6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.43
+      value: -0.91
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3bd8a450fcb589542a7843ea7bda2ee6, type: 3}
       propertyPath: m_LocalRotation.w
