@@ -14,8 +14,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Player has 3 Lives");
-        Debug.Log("Score is 0");
+        
     }
 
     // Update is called once per frame

@@ -525,7 +525,7 @@ GameObject:
   - component: {fileID: -8278369567719868346}
   - component: {fileID: 6287705849430499689}
   m_Layer: 0
-  m_Name: Animal_Moose_01
+  m_Name: Moose 1
   m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -538,7 +538,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4744416816253021893}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
   m_LocalPosition: {x: -0.57, y: 0, z: 13.81}
   m_LocalScale: {x: 11, y: 11, z: 11}
   m_ConstrainProportionsScale: 0
@@ -555,7 +555,7 @@ Transform:
   - {fileID: 4744416816252717985}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!95 &4744416816262374875
 Animator:
   serializedVersion: 4
